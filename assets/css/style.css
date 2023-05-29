@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../font/static/Inter-Regular.ttf") format("ttf"), url("../font/static/Inter-Bold.ttf") format("ttf"), url("../font/static/Inter-ExtraBold.ttf") format("ttf"), url("../font/static/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(177, 172, 172);
+    font-family: "Inter-Regular";
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contaner {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+div.contaner div.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+div.contaner div.header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+#responsiv-menu {
+    display: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+div.contaner div.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+    height: fit-content;
+}
+
+div.contaner div.main div.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 65%;
+}
+
+div.contaner div.main div.left img {
+    width: 100%;
+}
+
+div.contaner div.main div.left div.content {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+div.contaner div.main div.left div.content div {
+    margin: auto;
+}
+
+div.contaner div.main div.left div.content div a {
+    background-color: #e6ab4f;
+    margin-top: 30px;
+    padding: 20px;
+    color: #000;
+    border-radius: 5px;
+}
+
+hr {
+    width: 90%;
+}
+
+div.contaner div.main div.right {
+    background-color: rgb(29, 23, 23);
+    color: beige;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    flex-direction: column;
+    height: fit-content;
+}
+
+
+/* div.contaner div.main div.right div {
+     display: block;
+ }
+  */
+
+div.contaner div.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+div.contaner div.footer div.footerItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.contaner div.footer div.footerItem div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+div.contaner div.footer div.footerItem div h3 {
+    font-family: "Inter-Regular";
+    font-weight: bolder;
+}
+
+div.contaner div.footer div.footerItem img {
+    width: 110px;
+    height: 130px;
+    transition: all 5s;
+}

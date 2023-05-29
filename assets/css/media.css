@@ -1,0 +1,29 @@
+@media only screen and (max-width:1000px) {
+    .contaner {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .contaner {
+        max-width: 800px;
+    }
+    div.contaner div.footer div.footerItem {
+        align-items: center;
+    }
+    div.contaner div.footer div.footerItem div {
+        padding-left: 5px;
+    }
+    div.contaner div.footer div.footerItem div p {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    div.contaner div.footer div.footerItem div h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    div.contaner div.footer div.footerItem div a {
+        padding: 0px;
+    }
+}
